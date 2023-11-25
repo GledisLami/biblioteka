@@ -28,7 +28,7 @@ public class AuthorService {
         authorRepository.save(author);
     }
 
-    public void updateStudentet(Integer courseId){
+    public void updateStudentet(Integer kursi){
 
     }
 
