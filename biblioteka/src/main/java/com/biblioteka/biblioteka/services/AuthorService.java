@@ -28,6 +28,10 @@ public class AuthorService {
         authorRepository.save(author);
     }
 
+    public void updateStudentet(Integer courseId){
+
+    }
+
     @Transactional
     public void updateAuthor(Integer id, String name){
         Optional<Author> author = authorRepository.findById(id);
