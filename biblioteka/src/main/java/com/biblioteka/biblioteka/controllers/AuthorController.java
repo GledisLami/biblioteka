@@ -48,7 +48,7 @@ public class AuthorController {
 
     @GetMapping
     public String featureBMethod(){
-        return "This is part of feature B commit.";
+        return "This is part of feature B commit. Editing for the second time";
     }
 
 }
