@@ -51,7 +51,10 @@ public class AuthorController {
         return "This is part of feature B commit. Editing for the second time";
     }
 
-    //this is my random comment on feature D
+    @GetMapping
+    public String featureDMethod(){
+        return "This is part of feature B D commit. Editing for the final time";
+    }
 
     @DeleteMapping
     public String mainMethodInterveningWithD(){
