@@ -58,6 +58,4 @@ public class AuthorController {
         return "I am a random update on the program. See if i will be fetched on your branch";
     }
 
-    //this is my random comment on feature D
-
 }
