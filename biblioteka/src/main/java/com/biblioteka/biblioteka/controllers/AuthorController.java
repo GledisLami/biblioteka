@@ -51,4 +51,9 @@ public class AuthorController {
         return "This is part of feature B commit. Editing for the second time";
     }
 
+    @DeleteMapping
+    public String mainMethodInterveningWithD(){
+        return "I am a random update on the program. See if i will be fetched on your branch";
+    }
+
 }
