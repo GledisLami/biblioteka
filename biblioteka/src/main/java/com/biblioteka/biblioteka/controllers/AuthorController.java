@@ -53,7 +53,7 @@ public class AuthorController {
 
     @GetMapping
     public String featureDMethod(){
-        return "This is part of feature B D commit. Editing for the final time";
+        return "This is part of feature D commit. Editing for the final time";
     }
 
     @DeleteMapping
