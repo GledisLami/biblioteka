@@ -11,6 +11,7 @@ import java.util.Optional;
 @RequestMapping("/api/v1")
 public class AuthorController {
 
+
     @Autowired
     AuthorService authorService;
 
@@ -19,6 +20,12 @@ public class AuthorController {
         return authorService.findByName(name);
     }
 
+
+    //lets add a method
+    @GetMapping
+    public String getHello(){
+        return "hello World";
+    }
     @GetMapping("/id")
     public Optional<Author> findById(@RequestParam Integer id){
         return authorService.findById(id);
