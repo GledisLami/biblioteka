@@ -46,4 +46,9 @@ public class AuthorController {
         authorService.deleteAuthor(id);
     }
 
+    @GetMapping
+    public String featureBMethod(){
+        return "This is part of feature B commit. Editing for the second time";
+    }
+
 }
